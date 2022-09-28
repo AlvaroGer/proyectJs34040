@@ -8,11 +8,14 @@ while (i < 1) {
         alert("Transformando a numero positivo");
         valores = valores * -1;
         i++;
-    } else if (valores == 0) {
+    }
+    else if (valores == 0) {
         alert("Ingrese un monto válido!");
-    } else if (isNaN(valores)) {
+    }
+    else if (isNaN(valores)) {
         alert("Cáracter no válido!");
-    } else {
+    }
+    else {
         i++;
     }
     val = valores;
