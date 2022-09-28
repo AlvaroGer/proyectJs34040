@@ -5,7 +5,7 @@ while (i < 1) {
     let valores = parseInt(prompt("Ingrese cantidad de Pesos Uruguayos para transformar a Euros o Dólares"));
 
     if (valores < 0) {
-        alert("¬--o.o--¬ Transformando a numero positivo ¬--o.o--¬");
+        alert("Transformando a numero positivo");
         valores = valores * -1;
         i++;
     } else if (valores == 0) {
