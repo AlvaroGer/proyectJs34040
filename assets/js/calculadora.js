@@ -29,12 +29,12 @@ function transformar() {
     let resultado = 0;
     let dolares = 42.50;
     let euro = 41.95;
-    if (('dólares' == opcion) || ('Dólares' == opcion) || ('DóLARES' == opcion)) {
+    if (('dólares' == opcion) || ('Dólares' == opcion) || ('DÓLARES' == opcion)) {
         resultado = val / dolares;
         document.write(`<div class="alert alert-success" role="alert">El valor del Dólar en Pesos Uruguayos es:$ ${resultado.toFixed(2)}</div>`);
         alert(`El valor en Dólares es:$ ${resultado.toFixed(2)}`);
     }
-    else if (('euros' == opcion) || ('euros' == opcion) || ('EUROS' == opcion)) {
+    else if (('euros' == opcion) || ('Euros' == opcion) || ('EUROS' == opcion)) {
         resultado = val / euro;
         document.write(`<div class="alert alert-success" role="alert">El valor del Euro en Pesos Uruguayos es:$ ${resultado.toFixed(2)}</div>`);
         alert(`El valor en Euros es:$ ${resultado.toFixed(2)}`);
