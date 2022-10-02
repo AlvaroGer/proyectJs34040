@@ -29,7 +29,7 @@ function transformar() {
     let resultado = 0;
     let dolares = 42.50;
     let euro = 41.95;
-    if (('dólares' == opcion) || ('Dólares' == opcion) || ('DÓLARES' == opcion)) {
+    if (('dólares' == opcion) || ('Dólares' == opcion) || ('DÓLARES' == opcion) || ('dolares' == opcion) || ('Dolares' == opcion) || ('DOLARES' == opcion)) {
         resultado = val / dolares;
         document.write(`<div class="alert alert-success" role="alert">El valor del Dólar en Pesos Uruguayos es:$ ${resultado.toFixed(2)}</div>`);
         alert(`El valor en Dólares es:$ ${resultado.toFixed(2)}`);
